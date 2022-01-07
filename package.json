@@ -1,0 +1,19 @@
+{
+  "name": "deerwalk_mern_class",
+  "version": "1.0.0",
+  "description": "E-commerce App",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PratikK03/deerwalk_mern_class.git"
+  },
+  "author": "Pratik Kunwar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PratikK03/deerwalk_mern_class/issues"
+  },
+  "homepage": "https://github.com/PratikK03/deerwalk_mern_class#readme"
+}
