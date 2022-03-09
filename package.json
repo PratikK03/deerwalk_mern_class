@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "description": "E-commerce App",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node backend/server",
+    "server": "nodemon backend/server"
   },
   "repository": {
     "type": "git",
@@ -17,6 +19,7 @@
   },
   "homepage": "https://github.com/PratikK03/deerwalk_mern_class#readme",
   "dependencies": {
+    "dotenv": "^14.3.2",
     "mongoose": "^6.1.5"
   }
 }
