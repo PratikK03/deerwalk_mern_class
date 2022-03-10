@@ -3,7 +3,7 @@
 import React from 'react'
 import  propTypes  from "prop-types"
 
-const Rating = ({ val, color }) => {
+const Rating = ({ val, color, text }) => {
     return (
         <div className="rating">
             <span> 
@@ -35,7 +35,7 @@ const Rating = ({ val, color }) => {
                     val >= 4.5 ? "fas fa-star-half-alt" : "far fa-star"}>
                 </i>
             </span>
-           
+           <span>{text && text}</span>
         </div>
     );
 };
